@@ -1,0 +1,105 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model SistemaAtualEmprestimo.Models.DevolucaoViewModel
+
+@{
+    ViewBag.Title = "Devolução dos Livros";
+}
+<h1>Devolução</h1>
+
+<hr />
+<div>
+    <a class="btn btn-primary" asp-action="Index"> <i class="fa-solid fa-backward"></i> Voltar</a>
+</div>
+
+<div class="row">
+    <div class="col-md">
+        <form asp-action="Devolucao" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <input type="hidden" id="idlivrocliente" asp-for="IdLivroCliente" />
+
+            <div class="card-body">
+                <div class="card-header"> Cliente</div>
+                <div class="card">
+                    <table id="ListLivroClienteTable" class="table">
+                        <thead>
+                            <tr>
+                                <th>@Html.DisplayNameFor(model => model.oListLivroCliente.First().Id_ClienteNavigation.Nome)</th>
+                                <th>@Html.DisplayNameFor(model => model.oListLivroCliente.First().Id_LivroNavigation.Nome)</th>
+                                <th>@Html.DisplayNameFor(model => model.oListLivroCliente.First().Qtd)</th>
+                                <th>@Html.DisplayNameFor(model => model.oListLivroCliente.First().data_emprestimo)</th>
+                                <th>@Html.DisplayNameFor(model => model.oListLivroCliente.First().data_devolucao)</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.oListLivroCliente)
+                            {
+                                <tr data-idlivrocliente="@item.Id_LivroCliente">
+                                    <td>@Html.DisplayFor(modelItem => item.Id_ClienteNavigation.Nome)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Id_LivroNavigation.Nome)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Qtd)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.data_emprestimo)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.data_devolucao)</td>
+
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <br />
+            <div class="card-body">
+                <div class="card-header"> Quantidade </div>
+                <div class="card">
+                    <div class="col-md row">
+                        <div class="form-group">
+                            <label for="qtd">Quantidade:</label>
+                            <input type="number" id="qtd" name="qtd" value="1" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Incluir" class="btn btn-success" />
+            </div>
+   
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        $(document).ready(function () {
+            var livroclienteTable = $('#ListLivroClienteTable').DataTable();
+
+            $('#ListLivroClienteTable tbody').on('click', 'tr', function () {
+                if ($(this).hasClass('selected')) {
+                    $(this).removeClass('selected');
+                } else {
+                    livroclienteTable.$('tr.selected').removeClass('selected');
+                    $(this).addClass('selected');
+                    passIdlivrocliente($(this).data('idlivrocliente'));
+                }
+            });
+
+            function passIdlivrocliente(idlivrocliente) {
+                document.getElementById('idlivrocliente').value = idlivrocliente;
+            }
+
+            var retorno = '@ViewBag.Retorno';
+            if (retorno) {
+                alert(retorno);
+            }
+        });
+    </script>
+} 

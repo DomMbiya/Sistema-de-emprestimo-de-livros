@@ -1,0 +1,8 @@
+C:\Users\PC\source\repos\SistemaAtualEmprestimo\obj\Debug\net8.0\SistemaAtualEmprestimo.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\SistemaAtualEmprestimo\obj\Debug\net8.0\SistemaAtualEmprestimo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\SistemaAtualEmprestimo\obj\Debug\net8.0\SistemaAtualEmprestimo.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\SistemaAtualEmprestimo\obj\Debug\net8.0\SistemaAtualEmprestimo.AssemblyInfo.cs
+C:\Users\PC\source\repos\SistemaAtualEmprestimo\obj\Debug\net8.0\SistemaAtualEmprestimo.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\SistemaAtualEmprestimo\obj\Debug\net8.0\SistemaAtualEmprestimo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PC\source\repos\SistemaAtualEmprestimo\obj\Debug\net8.0\SistemaAtualEmprestimo.RazorAssemblyInfo.cache
+C:\Users\PC\source\repos\SistemaAtualEmprestimo\obj\Debug\net8.0\SistemaAtualEmprestimo.RazorAssemblyInfo.cs

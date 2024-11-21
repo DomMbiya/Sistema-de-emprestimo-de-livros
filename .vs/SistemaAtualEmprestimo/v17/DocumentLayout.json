@@ -1,0 +1,769 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\models\\emprestimoatualcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:models\\emprestimoatualcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\views\\pagamulta\\pagarmulta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:views\\pagamulta\\pagarmulta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\views\\pagamulta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:views\\pagamulta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\repository\\pagamultarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:repository\\pagamultarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\models\\pagamultaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:models\\pagamultaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\interfaces\\ipagamultarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:interfaces\\ipagamultarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\views\\livro\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:views\\livro\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\views\\devolucao\\devolucao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:views\\devolucao\\devolucao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\views\\devolucao\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:views\\devolucao\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\views\\emprestimo\\realizaremprestimo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:views\\emprestimo\\realizaremprestimo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\views\\emprestimo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:views\\emprestimo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\models\\devolucaoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:models\\devolucaoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\controllers\\devolucaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:controllers\\devolucaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\models\\emprestimoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:models\\emprestimoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\controllers\\emprestimocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:controllers\\emprestimocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\repository\\devolucaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:repository\\devolucaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\repository\\emprestimorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:repository\\emprestimorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\interfaces\\idevolucaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:interfaces\\idevolucaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\interfaces\\iemprestimorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:interfaces\\iemprestimorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\views\\cliente\\inserircliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:views\\cliente\\inserircliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\service\\vwlivroclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:service\\vwlivroclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\service\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:service\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\repository\\clientecontatorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:repository\\clientecontatorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\repository\\municipiorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:repository\\municipiorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\interfaces\\irepositorymunicipio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:interfaces\\irepositorymunicipio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\models\\clientecontato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:models\\clientecontato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\interfaces\\irepositoryclientecontato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:interfaces\\irepositoryclientecontato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\interfaces\\irepositorycliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:interfaces\\irepositorycliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\views\\livro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:views\\livro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\service\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:service\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\repository\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:repository\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\interfaces\\irepositorylivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:interfaces\\irepositorylivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\interfaces\\irepositorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:interfaces\\irepositorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\efpt.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:efpt.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|c:\\users\\pc\\source\\repos\\sistemaatualemprestimo\\sistemaatualemprestimo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1CE120A6-6DC0-4735-954B-354D7ED211D2}|SistemaAtualEmprestimo.csproj|solutionrelative:sistemaatualemprestimo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "efpt.config.json",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\efpt.config.json",
+              "RelativeDocumentMoniker": "efpt.config.json",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\efpt.config.json",
+              "RelativeToolTip": "efpt.config.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-15T09:47:53.222Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PagarMulta.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Views\\PagaMulta\\PagarMulta.cshtml",
+              "RelativeDocumentMoniker": "Views\\PagaMulta\\PagarMulta.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Views\\PagaMulta\\PagarMulta.cshtml",
+              "RelativeToolTip": "Views\\PagaMulta\\PagarMulta.cshtml",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAAAE8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-16T12:48:43.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Views\\PagaMulta\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\PagaMulta\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Views\\PagaMulta\\Index.cshtml",
+              "RelativeToolTip": "Views\\PagaMulta\\Index.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAACkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-16T12:45:09.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PagaMultaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Repository\\PagaMultaRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\PagaMultaRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Repository\\PagaMultaRepository.cs",
+              "RelativeToolTip": "Repository\\PagaMultaRepository.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAADUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T12:26:05.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABUAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T18:54:19.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmprestimoAtualContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Models\\EmprestimoAtualContext.cs",
+              "RelativeDocumentMoniker": "Models\\EmprestimoAtualContext.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Models\\EmprestimoAtualContext.cs",
+              "RelativeToolTip": "Models\\EmprestimoAtualContext.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAACUAAADrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T10:22:11.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Repository\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "Repository\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Repository\\RepositoryBase.cs",
+              "RelativeToolTip": "Repository\\RepositoryBase.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAACYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T18:06:48.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PagaMultaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Models\\PagaMultaViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\PagaMultaViewModel.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Models\\PagaMultaViewModel.cs",
+              "RelativeToolTip": "Models\\PagaMultaViewModel.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T12:23:29.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IPagaMultaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Interfaces\\IPagaMultaRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IPagaMultaRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Interfaces\\IPagaMultaRepository.cs",
+              "RelativeToolTip": "Interfaces\\IPagaMultaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T12:21:10.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Views\\Livro\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Livro\\Create.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Views\\Livro\\Create.cshtml",
+              "RelativeToolTip": "Views\\Livro\\Create.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-16T11:46:31.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Devolucao.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Views\\Devolucao\\Devolucao.cshtml",
+              "RelativeDocumentMoniker": "Views\\Devolucao\\Devolucao.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Views\\Devolucao\\Devolucao.cshtml",
+              "RelativeToolTip": "Views\\Devolucao\\Devolucao.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T22:17:04.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Views\\Devolucao\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Devolucao\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Views\\Devolucao\\Index.cshtml",
+              "RelativeToolTip": "Views\\Devolucao\\Index.cshtml",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAADAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T22:12:29.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RealizarEmprestimo.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Views\\Emprestimo\\RealizarEmprestimo.cshtml",
+              "RelativeDocumentMoniker": "Views\\Emprestimo\\RealizarEmprestimo.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Views\\Emprestimo\\RealizarEmprestimo.cshtml",
+              "RelativeToolTip": "Views\\Emprestimo\\RealizarEmprestimo.cshtml",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAAALQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T22:02:56.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Views\\Emprestimo\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Emprestimo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Views\\Emprestimo\\Index.cshtml",
+              "RelativeToolTip": "Views\\Emprestimo\\Index.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T21:38:01.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DevolucaoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Models\\DevolucaoViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\DevolucaoViewModel.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Models\\DevolucaoViewModel.cs",
+              "RelativeToolTip": "Models\\DevolucaoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T21:14:20.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DevolucaoController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Controllers\\DevolucaoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DevolucaoController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Controllers\\DevolucaoController.cs",
+              "RelativeToolTip": "Controllers\\DevolucaoController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T21:13:10.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EmprestimoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Models\\EmprestimoViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\EmprestimoViewModel.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Models\\EmprestimoViewModel.cs",
+              "RelativeToolTip": "Models\\EmprestimoViewModel.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T21:11:22.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EmprestimoController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Controllers\\EmprestimoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmprestimoController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Controllers\\EmprestimoController.cs",
+              "RelativeToolTip": "Controllers\\EmprestimoController.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAAAEUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T21:10:31.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DevolucaoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Repository\\DevolucaoRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\DevolucaoRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Repository\\DevolucaoRepository.cs",
+              "RelativeToolTip": "Repository\\DevolucaoRepository.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T21:06:55.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EmprestimoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Repository\\EmprestimoRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\EmprestimoRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Repository\\EmprestimoRepository.cs",
+              "RelativeToolTip": "Repository\\EmprestimoRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T21:05:23.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IDevolucaoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Interfaces\\IDevolucaoRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IDevolucaoRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Interfaces\\IDevolucaoRepository.cs",
+              "RelativeToolTip": "Interfaces\\IDevolucaoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T20:56:15.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IEmprestimoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Interfaces\\IEmprestimoRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IEmprestimoRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Interfaces\\IEmprestimoRepository.cs",
+              "RelativeToolTip": "Interfaces\\IEmprestimoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T20:54:14.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "InserirCliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Views\\Cliente\\InserirCliente.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cliente\\InserirCliente.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Views\\Cliente\\InserirCliente.cshtml",
+              "RelativeToolTip": "Views\\Cliente\\InserirCliente.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T20:49:27.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Views\\Cliente\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cliente\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Views\\Cliente\\Index.cshtml",
+              "RelativeToolTip": "Views\\Cliente\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHUAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T20:25:44.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "Controllers\\ClienteController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T20:23:22.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "VwLivroClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Service\\VwLivroClienteService.cs",
+              "RelativeDocumentMoniker": "Service\\VwLivroClienteService.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Service\\VwLivroClienteService.cs",
+              "RelativeToolTip": "Service\\VwLivroClienteService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T20:23:11.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Service\\ClienteService.cs",
+              "RelativeDocumentMoniker": "Service\\ClienteService.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Service\\ClienteService.cs",
+              "RelativeToolTip": "Service\\ClienteService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T20:22:24.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ClienteContatoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Repository\\ClienteContatoRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ClienteContatoRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Repository\\ClienteContatoRepository.cs",
+              "RelativeToolTip": "Repository\\ClienteContatoRepository.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T20:21:41.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MunicipioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Repository\\MunicipioRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\MunicipioRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Repository\\MunicipioRepository.cs",
+              "RelativeToolTip": "Repository\\MunicipioRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABsAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T20:20:28.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Repository\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ClienteRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Repository\\ClienteRepository.cs",
+              "RelativeToolTip": "Repository\\ClienteRepository.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAAAIwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T20:18:45.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IRepositoryMunicipio.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Interfaces\\IRepositoryMunicipio.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IRepositoryMunicipio.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Interfaces\\IRepositoryMunicipio.cs",
+              "RelativeToolTip": "Interfaces\\IRepositoryMunicipio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T20:16:46.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ClienteContato.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Models\\ClienteContato.cs",
+              "RelativeDocumentMoniker": "Models\\ClienteContato.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Models\\ClienteContato.cs",
+              "RelativeToolTip": "Models\\ClienteContato.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T20:15:52.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IRepositoryClienteContato.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Interfaces\\IRepositoryClienteContato.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IRepositoryClienteContato.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Interfaces\\IRepositoryClienteContato.cs",
+              "RelativeToolTip": "Interfaces\\IRepositoryClienteContato.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T20:15:10.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IRepositoryCliente.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Interfaces\\IRepositoryCliente.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IRepositoryCliente.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Interfaces\\IRepositoryCliente.cs",
+              "RelativeToolTip": "Interfaces\\IRepositoryCliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T20:13:17.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Views\\Livro\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Livro\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Views\\Livro\\Index.cshtml",
+              "RelativeToolTip": "Views\\Livro\\Index.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAA4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T19:27:29.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LivroService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Service\\LivroService.cs",
+              "RelativeDocumentMoniker": "Service\\LivroService.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Service\\LivroService.cs",
+              "RelativeToolTip": "Service\\LivroService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T18:09:20.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LivroController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Controllers\\LivroController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LivroController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Controllers\\LivroController.cs",
+              "RelativeToolTip": "Controllers\\LivroController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAJQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T18:09:10.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAAEEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T10:39:57.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LivroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Repository\\LivroRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\LivroRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Repository\\LivroRepository.cs",
+              "RelativeToolTip": "Repository\\LivroRepository.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAAC0AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T18:05:25.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IRepositoryLivro.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Interfaces\\IRepositoryLivro.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IRepositoryLivro.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Interfaces\\IRepositoryLivro.cs",
+              "RelativeToolTip": "Interfaces\\IRepositoryLivro.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T18:02:11.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IRepositoryModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Interfaces\\IRepositoryModel.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IRepositoryModel.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Interfaces\\IRepositoryModel.cs",
+              "RelativeToolTip": "Interfaces\\IRepositoryModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T18:02:28.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-15T09:48:00.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAEAAAAAAAAAAABRwBcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-15T07:43:30.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "SistemaAtualEmprestimo.csproj",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\SistemaAtualEmprestimo.csproj",
+              "RelativeDocumentMoniker": "SistemaAtualEmprestimo.csproj",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\SistemaAtualEmprestimo\\SistemaAtualEmprestimo.csproj",
+              "RelativeToolTip": "SistemaAtualEmprestimo.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-15T07:15:45.138Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

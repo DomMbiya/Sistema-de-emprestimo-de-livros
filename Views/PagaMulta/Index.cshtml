@@ -1,0 +1,47 @@
+﻿@model IEnumerable<SistemaAtualEmprestimo.Models.PagaMultaViewModel>
+
+@{
+    ViewBag.Title = "Pagamento da Multa";
+}
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="PagarMulta"> Pagar Multa </a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.oMultum.Valor)
+            </th>
+            <th>
+                Nome do Cliente
+            </th>
+            <th>
+                Numero do BI
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.oMultum.Valor)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NomeCliente)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NumeroBI)
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>

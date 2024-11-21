@@ -1,0 +1,118 @@
+﻿@model List<SistemaAtualEmprestimo.Models.ClienteContato>
+
+@{
+    ViewBag.Title = "Lista de Clientes";
+}
+
+<h1>Clientes</h1>
+
+<p>
+    <a asp-action="InserirCliente" class="btn btn-primary"> <i class="fa fa-plus-circle"></i>Novo Cliente</a>
+</p>
+<table id="myTable" class="">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model[0].Tb_Cliente.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].Tb_Cliente.Bi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].Tb_Cliente.Cod_MunNavigation.Municipio)
+
+            </th>
+            <th>
+                Contato
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td >
+                    @Html.DisplayFor(modelItem => item.Tb_Cliente.Nome)
+                </td>
+                <td >
+                    @Html.DisplayFor(modelItem => item.Tb_Cliente.Bi)
+                </td>
+                <td >
+                    @Html.DisplayFor(modelItem => item.Tb_Cliente.Cod_MunNavigation.Municipio)
+                </td>
+                <td >
+                    @foreach (var contato in item.Tb_Contacto)
+                    {
+                        @contato.Contacto <br />
+                    }
+                </td>
+            
+        
+
+
+
+<td>
+            <a asp-action="Edit" asp-route-id="@item.Tb_Cliente.Id_Cliente" class="btn btn-success"> <i class="fa fa-edit"></i> </a> |
+    <a asp-action="Details" asp-route-id="@item.Tb_Cliente.Id_Cliente" class="btn btn-primary"><i class="fa fa-search"></i></a> |
+
+
+    <!-- Button trigger modal-->
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#DeleteModal-@item.@item.Tb_Cliente.Id_Cliente">
+        <i class="fa fa-trash"></i>
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="DeleteModal-@item." tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="DeleteModalLabel">Excluir Cliente</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Deseja realmente excluir o cliente @item.Tb_Cliente.Nome ?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Não</button>
+                            <a asp-action="Delete" asp-route-id="@item.Tb_Cliente.Id_Cliente" class="btn btn-danger">Sim</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</td>
+</tr>
+       
+}
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+
+        $(document).ready(function () {
+            $('#myTable').DataTable();
+        });
+
+    </script>
+
+}
+
+@* <style>
+    .compact-table td, .compact-table th {
+        padding: 0.25rem;
+    }
+
+    .table-sm td, .table-sm th {
+        font-size: 0.875rem;
+    }
+
+    .btn-sm {
+        font-size: 0.75rem;
+        padding: 0.25rem 0.5rem;
+    }
+
+    .modal-body {
+        font-size: 0.875rem;
+    }
+</style> *@

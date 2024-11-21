@@ -1,0 +1,87 @@
+﻿@model IEnumerable<SistemaAtualEmprestimo.Models.PagaMultaViewModel>
+
+@{
+    ViewBag.Title = "Pagar Multa";
+}
+<h1>Pagar Multa</h1>
+
+<hr />
+<div>
+    <a class="btn btn-primary" asp-action="Index"> <i class="fa-solid fa-backward"></i> Voltar</a>
+</div>
+
+@if (Model != null && Model.Any())
+{
+    <div class="row">
+        <div class="col-md">
+            <div class="card-body">
+                <div class="card-header">Cliente</div>
+                <div class="card">
+                    <table id="ListLivroClienteTable" class="table">
+                        <thead>
+                            <tr>
+                                <th>Valor da Multa</th>
+                                <th>Nome do Cliente</th>
+                                <th>Numero do BI</th>
+                                <th>Ação</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr data-idlivrocliente="@item.Id_Pag_Multa">
+                                    <td>@Html.DisplayFor(modelItem => item.oMultum.Valor)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.NomeCliente)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.NumeroBI)</td>
+                                    <td>
+                                        <form asp-action="PagarMulta" method="post">
+                                            <input type="hidden" name="idPagMulta" value="@item.Id_Pag_Multa" />
+                                            <button type="submit" class="btn btn-success">Pagar</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="alert alert-warning">Nenhuma multa pendente encontrada.</div>
+}
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        $(document).ready(function () {
+            var livroclienteTable = $('#ListLivroClienteTable').DataTable();
+
+            $('#ListLivroClienteTable tbody').on('click', 'tr', function () {
+                if ($(this).hasClass('selected')) {
+                    $(this).removeClass('selected');
+                } else {
+                    livroclienteTable.$('tr.selected').removeClass('selected');
+                    $(this).addClass('selected');
+                    passIdlivrocliente($(this).data('idlivrocliente'));
+                }
+            });
+
+            function passIdlivrocliente(idlivrocliente) {
+                document.getElementById('idlivrocliente').value = idlivrocliente;
+            }
+
+            var retorno = '@ViewBag.Retorno';
+            if (retorno) {
+                alert(retorno);
+            }
+        });
+    </script>
+}
+}

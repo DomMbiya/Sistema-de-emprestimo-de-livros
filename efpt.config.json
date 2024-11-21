@@ -1,0 +1,94 @@
+﻿{
+   "CodeGenerationMode": 3,
+   "ContextClassName": "EmprestimoAtualContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "SistemaAtualEmprestimo",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[Tb_Cliente]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tb_Contacto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tb_Devolucao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tb_Livro]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tb_LivroCliente]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tb_Multa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tb_Mun]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tb_Pag_Multa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tb_Prov]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Devolucao]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Emprestimo]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Inserir_Livros]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[InserirCliente]",
+         "ObjectType": 1
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": true,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": true
+}

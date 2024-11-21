@@ -1,0 +1,184 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model EmprestimoViewModel
+
+<h1>Emprestimo</h1>
+
+<h4>Novo Emprestimo</h4>
+<hr />
+<div>
+    <a class="btn btn-primary" asp-action="Index"> <i class="fa-solid fa-backward"></i> Voltar</a>
+</div>
+
+<div class="row">
+    <div class="col-md">
+        <form asp-action="RealizarEmprestimo" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <input type="hidden" id="idcliente" asp-for="IdCliente" />
+            <input type="hidden" id="idlivro" asp-for="IdLivro" />
+
+            <div class="card-body">
+                <div class="card-header"> Cliente</div>
+                <div class="card">
+                    <table id="ListClienteTable" class="table">
+                        <thead>
+                            <tr>
+                                <th>@Html.DisplayNameFor(model => model.oListCliente.First().Nome)</th>
+                                <th>@Html.DisplayNameFor(model => model.oListCliente.First().Bi)</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.oListCliente)
+                            {
+                                <tr data-idcliente="@item.Id_Cliente">
+                                    <td>@Html.DisplayFor(modelItem => item.Nome)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Bi)</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="card-body">
+                <div class="card-header"> Livros</div>
+                <div class="card">
+                    <table id="ListLivroTable" class="table">
+                        <thead>
+                            <tr>
+                                <th>@Html.DisplayNameFor(model => model.oListLivro.First().Nome)</th>
+                                <th>@Html.DisplayNameFor(model => model.oListLivro.First().Autor)</th>
+                                <th>@Html.DisplayNameFor(model => model.oListLivro.First().Editora)</th>
+                                <th>@Html.DisplayNameFor(model => model.oListLivro.First().data_lancamento)</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.oListLivro)
+                            {
+                                <tr data-idlivro="@item.Id_Livro">
+                                    <td>@Html.DisplayFor(modelItem => item.Nome)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Autor)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Editora)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.data_lancamento)</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <br />
+            <div class="card-body">
+                <div class="card-header"> Quantidade </div>
+                <div class="card">
+                    <div class="col-md row">
+                        <div class="form-group">
+                            <label for="qtd">Quantidade:</label>
+                            <input type="number" id="qtd" name="qtd" value="1" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Incluir" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+<br />
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        $(document).ready(function () {
+            var clienteTable = $('#ListClienteTable').DataTable();
+            var livroTable = $('#ListLivroTable').DataTable();
+
+            $('#ListClienteTable tbody').on('click', 'tr', function () {
+                if ($(this).hasClass('selected')) {
+                    $(this).removeClass('selected');
+                } else {
+                    clienteTable.$('tr.selected').removeClass('selected');
+                    $(this).addClass('selected');
+                  passIdcliente($(this).data('idcliente'));
+                }
+            });
+
+            $('#ListLivroTable tbody').on('click', 'tr', function () {
+                if ($(this).hasClass('selected')) {
+                    $(this).removeClass('selected');
+                } else {
+                    livroTable.$('tr.selected').removeClass('selected');
+                    $(this).addClass('selected');
+                    passIdlivro($(this).data('idlivro'));
+                }
+            });
+
+            function passIdcliente(idcliente) {
+                document.getElementById('idcliente').value = idcliente;
+            }
+
+            function passIdlivro(idlivro) {
+                document.getElementById('idlivro').value = idlivro;
+            }
+            $(document).ready(function () {
+                var retorno = '@ViewBag.Retorno';
+                if (retorno) {
+                    alert(retorno);
+                }
+            });
+
+        })
+    </script>
+
+}
+
+
+
+
+
+@* <h2>@ViewData["Title"]</h2>
+
+<form asp-action="RealizarEmprestimo" method="post">
+    <div>
+        <label for="IdLivro">Selecione o Livro:</label>
+        <select id="IdLivro" name="IdLivro" asp-for="IdLivro">
+            @foreach (var livro in Model.Livros)
+            {
+                <option value="@livro.Id_Livro">@livro.Nome</option>
+            }
+        </select>
+    </div>
+    <div>
+        <label for="IdCliente">Selecione o Cliente:</label>
+        <select id="IdCliente" name="IdCliente" asp-for="IdCliente">
+            @foreach (var cliente in Model.Clientes)
+            {
+                <option value="@cliente.Id_Cliente">@cliente.Nome</option>
+            }
+        </select>
+    </div>
+    <div>
+        <label for="Quantidade">Quantidade:</label>
+        <input type="number" id="Quantidade" name="Quantidade" asp-for="Quantidade" />
+    </div>
+    <div>
+        <button type="submit">Realizar Empréstimo</button>
+    </div>
+    @if (!string.IsNullOrEmpty(Model.Retorno))
+    {
+        <div>
+            <p>@Model.Retorno</p>
+        </div>
+    }
+</form> *@
+

@@ -1,0 +1,103 @@
+﻿@model IEnumerable<SistemaAtualEmprestimo.Models.Tb_Livro>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Adicionar Livro</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Autor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Editora)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Edicao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Qtd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.data_lancamento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.data_criacao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.estado)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Autor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Editora)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Edicao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Qtd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.data_lancamento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.data_criacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.estado)
+            </td>
+                <td>
+                    <a class="btn btn-success" asp-action="Edit" asp-route-id="@item.Id_Livro"><i class="fa fa-edit"></i></a> |
+                    <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id_Livro"><i class="fa fa-search"></i></a> |
+
+
+                    <!-- Button trigger modal-->
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#DeleteModal-@item.Id_Livro">
+                        <i class="fa fa-trash"></i>
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="DeleteModal-@item.Id_Livro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="DeleteModalLabel">Excluir Livro</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Deseja realmente excluir o livro @item.Nome ?
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Não</button>
+                                    <a asp-action="Delete" asp-route-id="@item.Id_Livro" class="btn btn-danger">Sim</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </td>
+        </tr>
+}
+    </tbody>
+</table>
